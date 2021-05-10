@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+
+ /* Extra small devices */ @media screen and (max-width: 306.99px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .nav-bar {
+        background-color: #7b994e;
+        padding: 0px 10px 0 8px;
+        height: 100px;
+        display: block;
+        text-align: center;
+    }
+
+    .logo-pic {
+        height: 25px;
+        padding: 10px;
+    }
+
+    .hr {
+        display: flex;
+                padding: 10px;
+                font-family: 'Mitr', sans-serif;
+                font-size: 12px;
+                justify-content: center;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 4px 6px 4px 6px;
+    }
+    .activities {
+        padding: 4px 6px 4px 6px;
+    }
+    .review {
+        padding: 4px 6px 4px 6px;
+}
+ }
+ /* Small devices */ @media screen and (min-width: 307px) and (max-width: 345.99px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .nav-bar {
+        background-color: #7b994e;
+        padding: 0px 10px 0 8px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-pic {
+        height: 25px;
+        padding: 10px;
+    }
+
+    .hr {
+        display: flex;
+        padding: 10px;
+        font-family: 'Mitr', sans-serif;
+        font-size: 12px;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 10px;
+    }
+    .activities {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px;
+    }
+}
+
+ /* Mobile devices */ @media screen and (min-width: 346px) and (max-width: 480.99px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .nav-bar {
+        background-color: #7b994e;
+                padding: 0px 10px 0 8px;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+    }
+
+    .logo-pic {
+        height: 30px;
+        padding: 10px;
+    }
+
+    .hr {
+        display: flex;
+                padding: 10px;
+                font-family: 'Mitr', sans-serif;
+                font-size: 14px;
+            }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 10px;
+    }
+    .activities {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px;
+    }
+}
+
+ /* iPads, Tablets */ @media screen and (min-width: 481px) and (max-width: 768.99px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .nav-bar {
+        background-color: #7b994e;
+        padding: 0px 16px 0 12px;
+        height: 74.4px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-pic {
+        height: 42.4px;
+        padding: 16px;
+    }
+
+    .hr {
+        display: flex;
+        padding: 14px;
+        font-family: 'Mitr', sans-serif;
+        font-size: 18px;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 10px;
+    }
+    .activities {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px;
+    }
+}
+
+  /* Small screens, laptops */ @media screen and (min-width: 769px) and (max-width: 1024.99px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .nav-bar {
+        background-color: #7b994e;
+        padding: 0px 16px 0 12px;
+        height: 74.4px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-pic {
+        height: 42.4px;
+        padding: 16px;
+    }
+
+    .hr {
+        display: flex;
+        padding: 14px;
+        font-family: 'Mitr', sans-serif;
+        font-size: 18px;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 10px;
+    }
+    .activities {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px;
+    }
+}
+
+  /* Desktops, large screens */ @media screen and (min-width: 1025px) and (max-width: 1200.99px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    
+    .nav-bar {
+        background-color: #7b994e;
+        padding: 0px 16px 0 12px;
+        height: 74.4px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-pic {
+        height: 42.4px;
+        padding: 16px;
+    }
+
+    .hr {
+        display: flex;
+        padding: 14px;
+        font-family: 'Mitr', sans-serif;
+        font-size: 18px;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 10px;
+    }
+    .activities {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px;
+    }
+}
+
+  /* Extra large screens, TV */ @media screen and (min-width: 1201px) {
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+    
+    .nav-bar {
+        background-color: #7b994e;
+        padding: 0px 16px 0 12px;
+        height: 74.4px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-pic {
+        height: 42.4px;
+        padding: 16px;
+    }
+
+    .hr {
+        display: flex;
+        padding: 14px;
+        font-family: 'Mitr', sans-serif;
+        font-size: 18px;
+    }
+    a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    a:hover {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .home {
+        padding: 10px;
+    }
+    .activities {
+        padding: 10px;
+    }
+    .review {
+        padding: 10px;
+    }
+}
+
